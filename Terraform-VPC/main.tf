@@ -23,4 +23,7 @@ module "alb" {
   instances = module.ec2.instances
 }
 
-#khljkhdffdhdf
+module "lambda" {
+  source = "./modules/lambda"
+}
+#khljkhdffdhdffjdr
